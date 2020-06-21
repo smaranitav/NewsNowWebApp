@@ -1,0 +1,385 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .keywordSelect {width:60%;}
+    .bookmark_in_nav{float:left;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .keywordSelect {width:60%;}
+    .bookmark_in_nav{float:left;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .keywordSelect {width:60%;}
+    .bookmark_in_nav{float:left;}
+    .switch-button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .keywordSelect {width:25%;}
+    .bookmark_in_nav{float:right;}
+    .switch-button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .keywordSelect {width:25%;}
+    .bookmark_in_nav{float:right;}
+    .switch-button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+  }
+
+.blueGradient{
+    background-image: linear-gradient(to right, #000d1a , #0059b3);
+}
+.news-src{
+    color:white;
+}
+.cardRow{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 5px #c5c5c5;
+    border:1px solid #dadada;
+    border-radius: 3px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:5px;
+}
+
+.cardImg, .favCardImg{
+    /*width:100%;
+    height:100%;*/
+    object-fit: cover;
+    padding:3px;
+    border-radius: 3px;
+    border:1px solid #dadada;
+}
+
+.cardTitle{
+    float:left; 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+.favCardTitle{
+         
+        font-weight: bold;
+        font-style: italic;
+        
+}
+.cardDesc{
+    float:left; 
+    clear: left;
+    width:100%;
+    font-size: 14px;
+   
+}
+.share_symbol{
+    color:black;
+}
+.shareToast{
+    height: 250px;
+}
+.popupSource{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+.popupTitle{
+    font-weight: 600;
+    font-size: 15px;
+}
+.coluu{
+    text-align:center;
+}
+.wrapper{
+    display: block;
+}
+  
+  /* Create three equal columns that floats next to each other */
+  .popupColumn {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    /*border:1px solid green;*/
+  }
+  .popupRow{
+      margin-top:4px;
+  }
+  
+  /* Clear floats after the columns */
+  .popupRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Create three equal columns that floats next to each other */
+  .cardDate{
+    font-style:italic;
+    margin-top: 12px;
+    margin-left: 1px;
+    /*width:85%;*/
+    float: left;
+  }
+  .favCardDate, .searchCardDate{
+    /*margin-top: 4px;*/
+    font-style:italic;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    /*width:85%;*/
+    float: left;
+  }
+  .favCardLastRow, .searchCardLastRow{
+      margin-top: 7px;
+  }
+
+  .cardSection{
+    /*width:15%;*/
+    float:right;
+    margin-top: 12px;
+  }
+  .favCardSectionSource{
+    float: right;
+  }
+  .favCardSource, .favCardSection{
+    /*float:right;*/
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 4px;
+    }
+  .searchCardSection{
+    font-size: 14px;
+    font-weight: 600;
+    
+    float: right;
+  }
+  
+
+  .container-fluid{
+      margin:0 auto;
+      padding:0;
+  }
+  .popupShareText{
+      text-align: center;
+      font-weight: bold;
+    font-size: 15px;
+
+  }
+  .otherSection{
+    background-color: #737373;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+  .world{
+    background-color:#b84dff;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+  .politics{
+    background-color:#009973;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+.business{
+    background-color: #00b8e6;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;    
+}
+.technology{
+    background-color: #80ff00;
+    color:black;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sports{
+    background-color: #ffcc00;
+    color:black;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;    
+}
+.health{
+    background-color: #808080;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;    
+}
+.guardianBg{
+    /*font-size: 12px;*/
+    background-color: #000033;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nytimesBg{
+    background-color: #d9d9d9;
+    color:black;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.detailedArticle{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*box-shadow: 0 0 0 #fff, 0 0 6px rgba(0,0,0, .35);*/
+    box-shadow: 0px 5px 5px #c5c5c5;
+    border-radius: 3px;
+    border:1px solid #dadada;
+    padding:15px;
+}
+.detailedCardTitle
+{
+    font-style: italic;
+    font-size: 25px;
+    font-weight:500;
+}
+.detailedCardDate{
+    font-style:italic;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.detailedCardBookmark{
+    text-align: center;
+}
+.detailedCardIcons{
+    text-align: center;
+}
+.toast_msg{
+    color:black;
+}
+.detailedCardImg{
+    margin-top: 15px;
+    width:100%;
+    height:100%;
+}
+.detailedCardDesc{
+    margin-top: 15px;
+}
+#remainingDesc{
+    padding-top: 12px;
+}
+.expandMore, .expandLess{
+    float:right;
+}
+/*.bookmark_in_nav{
+    float:right;
+}*/
+.cardImgBox{
+    /* padding-left: 0;
+    padding-right: 0; */
+    border: 1px solid #dadada;
+    border-radius:3px;
+}
+.favCard{
+    margin-left: 4px;
+    margin-right: 4px;
+    box-shadow: 0px 5px 5px #c5c5c5;
+    border:1px solid #dadada;
+    border-radius: 3px;
+}
+.favRow{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.favCol{
+    margin-bottom:15px;
+}
+.cardColumn{
+    box-shadow: 0px 5px 5px #c5c5c5;
+    border:1px solid #dadada;
+    border-radius: 3px;
+    padding:15px;
+}
+.displayText{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.favouritesTitle, .searchResultsTitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-left: 18px;
+}
+.spinner{
+    position:fixed;
+    top:50%;
+    left:50%;
+}
+.cardLink{
+    text-decoration: none;
+    color: black;
+}
+.cardLink:hover{
+    color: black;
+    text-decoration: none;
+}
+.articleWrapper, .expandedCardWrapper{
+    margin-top: 12px;
+}
